@@ -1,0 +1,67 @@
+*{
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 10px;
+    text-shadow: 0 0 3px yellow, 0 0 5px yellowgreen;
+}
+
+
+th {
+    background-color: white;
+    color:gray;
+    font-weight: lighter;
+}
+td {
+    padding: 7px;
+}
+
+tr{
+    text-align: left;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    background:white;
+
+}
+tr:nth-child(odd) {
+    background: rgba(188, 248, 187, 0.1);
+}
+a,a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(38, 124, 182);
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+a.btn:hover {
+    color: whitesmoke;
+}
+
+
+
+
+footer {
+    margin-top: 5px;
+    padding: 6px 18px;
+    background-color: #038857;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer:hover {
+    background-color: rgb(21, 181, 119);
+}
+footer:visited{
+    background-color: #038857;
+}
