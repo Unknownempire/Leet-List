@@ -42,3 +42,20 @@ var myarray =[
         "status": "AC",
     }
 ]
+
+
+function buildTable(data) {
+    let table = document.getElementById('mytable');
+
+    for (let i = 0; i < data.length; i++) {
+
+        let row = `<tr>
+                                        <td>${data[i].status}</td>
+                                        <td>${data[i].title}</td>
+                                        <td>${data[i].status}</td>
+                                        <td>${data[i].acceptance}</td>
+                                        <td>${data[i].difficulty}</td>
+                                    </tr>`
+        table.innerHTML += row;
+    }
+}
